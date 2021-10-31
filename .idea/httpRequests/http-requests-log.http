@@ -1,0 +1,46 @@
+GET http://127.0.0.1:5000/api/simpleNumber/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-10-31T115152.200.html
+
+###
+
+GET http://127.0.0.1:5000/api/simpleNumber/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-10-31T115148.200.html
+
+###
+
+GET http://127.0.0.1:5000/api/simpleNumber/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-10-31T115143.200.html
+
+###
+
+GET http://127.0.0.1:5000/api/simpleNumber/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-10-31T115138.200.html
+
+###
+
+GET http://127.0.0.1:5000/api/simpleNumber/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-10-31T115129.200.html
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+

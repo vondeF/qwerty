@@ -1,16 +1,11 @@
-from flask import Flask, render_template, url_for
+from flask import Flask
 
 app = Flask(__name__)
 
 
-@app.route("/")
-def index():
-    print('URL для главной страницы = ' + str(url_for('index')))
-    return render_template('index.html')
-
-@app.route("/profile/<username>")
-def profile(username):
-    return f'Пользователь: {username}'
+@app.route('/api/simpleNumber/', methods=['GET'])
+def getSimpleNumber():
+    return '15'
 
 if __name__ == '__main__':
     app.run(debug=True)
