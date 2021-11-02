@@ -1,3 +1,21 @@
+GET http://127.0.0.1:5000/test/api/time/
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://127.0.0.1:5000/test/api/time/
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://127.0.0.1:5000/test/api/time
+Accept: */*
+Cache-Control: no-cache
+
+###
+
 GET http://127.0.0.1:5000/
 Accept: */*
 Cache-Control: no-cache
