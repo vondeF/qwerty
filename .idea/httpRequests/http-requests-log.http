@@ -1,3 +1,225 @@
+GET http://127.0.0.1:5000/currentTime
+Accept: application/json
+
+<> 2021-11-12T215731.200.html
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: application/json
+
+<> 2021-11-12T203942.200.json
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: application/json
+
+<> 2021-11-12T203938.200.html
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: application/json
+
+<> 2021-11-12T203926.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Content-Type: application/json
+
+{}
+
+<> 2021-11-12T203923.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Content-Type: application/json
+
+{}
+
+<> 2021-11-12T203918.200.json
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: application/json
+
+<> 2021-11-12T203030.200.json
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: application/json
+
+<> 2021-11-12T203016.200.html
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: application/json
+
+<> 2021-11-12T202232.404.html
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: application/json
+
+<> 2021-11-12T202222.404.html
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012515.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012510.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012505.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012448.200.json
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012342.200.json
+
+###
+
+GET http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012322.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012313.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-10T012306.200.json
+
+###
+
+POST http://127.0.0.1:5000/timeArray
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://127.0.0.1:5001/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070915.200.html
+
+###
+
+GET http://127.0.0.1:5001/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070913.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070454.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070453.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070452.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-03T070450.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-02T093123-1.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-02T093123.200.html
+
+###
+
+GET http://127.0.0.1:5000/currentTime
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-02T093121.200.html
+
+###
+
 GET http://127.0.0.1:5000/test/api/time/
 Accept: */*
 Cache-Control: no-cache
@@ -155,60 +377,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2021-10-31T120248.200.html
-
-###
-
-GET http://127.0.0.1:5000/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T120244.200.html
-
-###
-
-GET http://127.0.0.1:5000/api/simpleNumber/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T115152.200.html
-
-###
-
-GET http://127.0.0.1:5000/api/simpleNumber/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T115148.200.html
-
-###
-
-GET http://127.0.0.1:5000/api/simpleNumber/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T115143.200.html
-
-###
-
-GET http://127.0.0.1:5000/api/simpleNumber/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T115138.200.html
-
-###
-
-GET http://127.0.0.1:5000/api/simpleNumber/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-10-31T115129.200.html
-
-###
-
-GET http://localhost:8080/resources
-Accept: */*
-Cache-Control: no-cache
 
 ###
 

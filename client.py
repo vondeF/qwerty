@@ -1,10 +1,15 @@
 import requests
+import time
+import asyncio
+import aiohttp
 
-response = requests.get('http://127.0.0.1:5000/currentTime')  # get-запрос по соответсвующему адресу
+async def main():
+    async with aiohttp.ClientSession() as session:
+        while True:
+            async with session.get('http://127.0.0.1:5000/currentTime') as response:
+                print(response.text)
+                await asyncio.sleep(1)
 
-if response.status_code == 200:
-    print('Данные найдены')
-elif response.status_code == 404:
-    print('Данные не найдены')
 
-print('По запросу получили: ' + response.text)
+# Python 3.7+
+asyncio.run(main())
